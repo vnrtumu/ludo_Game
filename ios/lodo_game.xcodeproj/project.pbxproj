@@ -15,6 +15,8 @@
 		4D0E05793C2AB7499D20B881 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-lodo_game-lodo_gameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-lodo_game-lodo_gameTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CEDB746A5B6D4497A3CF5407 /* Philosopher-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E3472AED09C4C18A148F7B3 /* Philosopher-Bold.ttf */; };
+		FA91DB45441D433291E59988 /* Philosopher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50651B8303C84C6C9FB36449 /* Philosopher-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +42,11 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = lodo_game/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-lodo_game-lodo_gameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lodo_game-lodo_gameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-lodo_game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lodo_game.debug.xcconfig"; path = "Target Support Files/Pods-lodo_game/Pods-lodo_game.debug.xcconfig"; sourceTree = "<group>"; };
+		50651B8303C84C6C9FB36449 /* Philosopher-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Philosopher-Regular.ttf"; path = "../src/assets/fonts/Philosopher-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-lodo_game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lodo_game.release.xcconfig"; path = "Target Support Files/Pods-lodo_game/Pods-lodo_game.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-lodo_game-lodo_gameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lodo_game-lodo_gameTests.debug.xcconfig"; path = "Target Support Files/Pods-lodo_game-lodo_gameTests/Pods-lodo_game-lodo_gameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-lodo_game.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lodo_game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3472AED09C4C18A148F7B3 /* Philosopher-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Philosopher-Bold.ttf"; path = "../src/assets/fonts/Philosopher-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = lodo_game/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-lodo_game-lodo_gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lodo_game-lodo_gameTests.release.xcconfig"; path = "Target Support Files/Pods-lodo_game-lodo_gameTests/Pods-lodo_game-lodo_gameTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -125,6 +129,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9A24B3D6146E42558F49FC10 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -138,6 +143,16 @@
 				00E356EE1AD99517003FC87E /* lodo_gameTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9A24B3D6146E42558F49FC10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E3472AED09C4C18A148F7B3 /* Philosopher-Bold.ttf */,
+				50651B8303C84C6C9FB36449 /* Philosopher-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -247,6 +262,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				4D0E05793C2AB7499D20B881 /* PrivacyInfo.xcprivacy in Resources */,
+				CEDB746A5B6D4497A3CF5407 /* Philosopher-Bold.ttf in Resources */,
+				FA91DB45441D433291E59988 /* Philosopher-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
